@@ -1,0 +1,11 @@
+# mount point  fstype      device                                                   [flags]
+
+/system        ext4        /dev/block/platform/emmc/by-name/system      flags=backup=1;display=System
+/data          ext4        /dev/block/platform/emmc/by-name/userdata    flags=backup=1;display=Data
+/cache         ext4        /dev/block/platform/emmc/by-name/cache       flags=backup=1;display=Cache
+/uboot         emmc        /dev/block/platform/emmc/by-name/uboot       flags=backup=1;display=Uboot;flashimg
+/misc          emmc        /dev/block/platform/emmc/by-name/misc        flags=backup=1;display=Misc;
+/kernel        emmc        /dev/block/platform/emmc/by-name/kernel      flags=backup=1;display=Kernel;flashimg
+/boot          emmc        /dev/block/platform/emmc/by-name/boot        flags=backup=1;display=Boot
+/recovery      emmc        /dev/block/platform/emmc/by-name/recovery    flags=backup=1;display=Recovery
+/usb-otg       auto        /dev/block/sda1                              flags=wipeingui;storage;removable;display="USB OTG"
