@@ -93,7 +93,7 @@ USE_E2FSPROGS := true
 
 # TWRP
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
-TW_BRIGHTNESS_PATH := "/brightness"
+TW_BRIGHTNESS_PATH := "/sys/devices/platform/rk29_backlight/backlight/rk28_bl/brightness"
 TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
 TW_NO_SCREEN_TIMEOUT := true
