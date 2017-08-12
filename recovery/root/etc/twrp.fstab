@@ -8,4 +8,5 @@
 /kernel        emmc        /dev/block/platform/emmc/by-name/kernel      flags=backup=1;display=Kernel;flashimg
 /boot          emmc        /dev/block/platform/emmc/by-name/boot        flags=backup=1;display=Boot
 /recovery      emmc        /dev/block/platform/emmc/by-name/recovery    flags=backup=1;display=Recovery
+/external_sd   auto        /dev/block/platform/emmc/by-name/user        flags=backup=1;display=SDcard
 /usb-otg       auto        /dev/block/sda1                              flags=wipeingui;storage;removable;display="USB OTG"
