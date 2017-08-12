@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
 
 # Recovery
 RECOVERY_FSTAB_VERSION := 2
-TARGET_RECOVERY_FSTAB := $(DEVICE_FOLDER)/recovery/root/fstab.rk30board
+# TARGET_RECOVERY_FSTAB := $(DEVICE_FOLDER)/recovery/root/fstab.rk30board
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
@@ -97,7 +97,7 @@ TW_BRIGHTNESS_PATH := "/sys/devices/platform/rk29_backlight/backlight/rk28_bl/br
 TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
 TW_NO_SCREEN_TIMEOUT := true
-#TWHAVE_SELINUX := true
+TWHAVE_SELINUX := true
 TW_INCLUDE_FB2PNG := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
